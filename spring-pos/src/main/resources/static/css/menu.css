@@ -1,0 +1,36 @@
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #e3f2fd;
+    overflow-x: hidden;
+    padding-top: 30px;
+}
+.sidebar a {
+	font-family: 'Hahmlet', serif;
+	padding: 20px 10px 6px 16px;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 700;
+	color: #818181;
+	display: block;
+	border: none;
+	background: none;
+	width:100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+ .main {
+	margin-left: 200px; /* Same as the width of the sidenav */
+	padding: 0px 15px;
+}
+.user-login {
+	padding: 6px 8px 6px 16px;
+	position: fixed; /* 이 부분을 고정 */
+  	bottom: 10px; /* 하단에 여백 없이 */
+  	width: 200px;
+}
